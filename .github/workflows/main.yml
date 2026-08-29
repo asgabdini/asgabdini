@@ -7,9 +7,17 @@ on:
 
 jobs:
   update-readme:
-    name: Update WakaTime Stats
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true          # عنوان "Week X" بالای بلوک
+          TIME_RANGE: all_time      # به‌جای last_7_days
+          SHOW_TIME: true           # نمایش زمان هر زبان
+          SHOW_TOTAL: true          # نمایش جمع کل ساعت‌ها
+          LANG_COUNT: 8             # چند زبان برتر نشون بده
+          STOP_AT_OTHER: true       # زبان‌های خیلی جزئی رو زیر "Other" جمع کنه
+          IGNORED_LANGUAGES: YAML JSON TOML   # زبان‌هایی که نمی‌خوای نشون بده
+          COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"

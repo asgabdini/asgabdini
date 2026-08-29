@@ -1,7 +1,5 @@
-![Code Time](http://img.shields.io/badge/Code%20Time-966%20hrs-blue?style=flat)
+![Language Stats](https://raw.githubusercontent.com/asgabdini/WakaDash/main/results/lang_stats.svg)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=asgabdini&show_icons=true&theme=tokyonight&hide_border=true)
+![Weekly Stats](https://raw.githubusercontent.com/asgabdini/WakaDash/main/results/day_wise_stats.svg)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=asgabdini&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-![WakaTime Languages](https://raw.githubusercontent.com/asgabdini/asgabdini/output/generated/languages.svg)
+![Daily Avg Badge](https://raw.githubusercontent.com/asgabdini/WakaDash/main/results/daily_avg_badge.svg)
